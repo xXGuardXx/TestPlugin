@@ -1,0 +1,25 @@
+name: InstaRules
+version: 0.1
+main: me.outlook.ComradGamingMC.TestPlugin.Main
+author: ComradGamingMC
+description: TestPlugin Made by ComradGamingMC
+website: https://www.spigotmc.org/resources/authors/comradgamingmc.58227/
+skype: dev.comradgamingmc
+commands:
+  rules:
+    description: Shows help message
+    permission: rules.help
+    usage: "Usage: /test [help/reload]"
+permissions:
+  rules.*:
+    description: Gives access to all test permissions.
+    default: op
+    children:
+      rules.help: true
+      rules.reload: true
+  rules.help:
+    description: Allows you to get command help
+    default: op
+  rules.reload:
+    description: Allows you to reload the plugin
+    default: op

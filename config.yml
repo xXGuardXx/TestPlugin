@@ -1,0 +1,11 @@
+general:
+  reloadMessage: '&bInstaRules &8// &7&oSuccesfully reloaded InstaRules!'
+  noPermMessage: '&bInstaRules &8// &c&oYou do not have access to that command.'
+message:
+  headerMessage: '§9§m**§8§m---------§9§m*§9§m-----§r§9§lRULES§r§9§m-----§9§m*§8§m---------§9§m**§r'
+  line0: '&bInstaRules &8| &c&o/rules'
+  line1: '&6/&bTest help &8- &cShows this message'
+  line2: '&6/&bTest reload &8- &cReload the plugin'
+  line3: '&6'
+  footerMessage: '§9§m**§8§m---------§9§m*§9§m-----§r§9§lRULES§r§9§m-----§9§m*§8§m---------§9§m**§r'
+  
